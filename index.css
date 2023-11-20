@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,700;1,800&family=Roboto+Slab:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 140px 0 127px 135px;
+  background-color: #fdf0e9;
+  min-height: 100vh;
+  display: flex;
+}
+.container .left-box h1 {
+  color: #ef6d58;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.container .left-box h3 {
+  margin: top 18px;
+  color: #391400;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+}
+.container .left-box p {
+  width: 470px;
+  margin-top: 31px;
+  margin-bottom: 28px;
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container .left-box a {
+  text-decoration: none;
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container ul {
+  margin-top: 40px;
+  margin-left: 130px;
+}
+.container ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.container ul li b {
+  color: #391400;
+  font-family: Epilogue;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: -2px;
+}
+.container ul li p {
+  margin-left: 54px;
+  color: #391400;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+@media screen and (max-width:768px) {
+.container{
+padding: 94px 23px 71px 23px;
+display: flex;
+flex-direction: column;
+}
+.container ul {
+margin: 0;
+}
+.container .left-box p{
+width: 100%;
+}
+.container .left-box h3{
+width: 100%;
+}
+}
